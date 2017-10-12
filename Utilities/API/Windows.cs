@@ -23,10 +23,7 @@ namespace ESnail.Utilities.Win32API
 
                         return tOSVersion;
                     }
-                    catch (Exception)
-                    {
-                        break;
-                    }
+                    catch (Exception) { }
                 }
                 while(false);
 
